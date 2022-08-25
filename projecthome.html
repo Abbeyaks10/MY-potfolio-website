@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="(min-width:800px" href="projectcss.css">
+    <link rel="stylesheet" media="(max-width:800px)" href="projecthomenew.css">
+    <script >
+        function showmenu(){
+            var x = document.getElementById('myUL');
+            if(x.style.display =="block"){
+                x.style.display = "none";
+            } else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="BGPICS/pr8.jpg" alt="">
+        <a id="bar" href="javascript:void(0)" onclick="showmenu()"><i class="fa fa-bars" style="font-size:36px"></i></a>
+        <ul id="myUL">
+            <li class="first"><a href="projecthome.html">Home</a></li>
+            <li><a href="projectabout.html">About</a></li>
+            <li><a href="projectservices.html">Services</a></li>
+            <li><a href="projectskills.html">Skills</a></li>
+            <li><a href="projectcontact.html">Contact</a></li>
+        </ul>
+        <h2>Portfolio.</h2> 
+    </header>
+    <section>
+        <p>Hello! my name is<p><span class="Name">Abednego Yakubu</span><p><span class="skill">And I am a Web developer</span></p>
+        <a href="projectcontact.html"><input type="button" value="Hire me"></a>
+
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>

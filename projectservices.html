@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="(min-width:800px" href="projectservices.css">
+    <link rel="stylesheet" media="(max-width:800px)" href="projectservicesnew.css">
+    <script >
+        function showmenu(){
+            var x = document.getElementById('myUL');
+            if(x.style.display =="block"){
+                x.style.display = "none";
+            } else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <a id="bar" href="javascript:void(0)" onclick="showmenu()"><i class="fa fa-bars" style="font-size:36px"></i></a>
+        <ul id="myUL">
+            <li class="first"><a href="projecthome.html">Home</a></li>
+            <li><a href="projectabout.html">About</a></li>
+            <li><a href="projectservices.html">Services</a></li>
+            <li><a href="projectskills.html">Skills</a></li>
+            <li><a href="projectcontact.html">Contact</a></li>
+        </ul>
+        <h2>Portfolio.</h2>
+    </header>
+    <main>
+        <p class="one">My Services</p>
+        <p class="two"><span>---</span>What I provide<span>---</span></p>
+        <a href="mailto: abednegoyaku6@gmail.com?subject=I need a web developer&body=I will love to hire you as a front end web developer">
+           <div>
+             <h3>Front-end Web Design</h3><p>
+             <p class="three">I build basic websites with Html CSS and Javascript click here to send and email</p>
+           </div>
+        <a href="mailto: abednegoyaku6@gmail.com?subject=I need a Tutor for web design &body=I will love to hire you as a tutor in web development">
+           <div><h3> Web Development Tutoring </h3><p>
+            <p class="three">I'am available for tutoring jobs in web development.click here to send email</p>
+           </div>
+        </a>
+        <a href="mailto: abednegoyaku6@gmail.com?subject=I need a manager for my website&body=I will love to hire you to manage my website">
+           <div><h3> Website Management </h3><p>
+             <p class="three">I can manage your website,update existing website and editing ongoing web development project.click here to read more!</p>
+           </div>
+        </a>
+    </main>

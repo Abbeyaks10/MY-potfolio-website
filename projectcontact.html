@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="(min-width:800px)" href="projectcontact.css">
+    <link rel="stylesheet" media="(max-width:800px)" href="projectcontactnew.css">
+    <script >
+        function showmenu(){
+            var x = document.getElementById('myUL');
+            if(x.style.display =="block"){
+                x.style.display = "none";
+            } else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <a id="bar" href="javascript:void(0)" onclick="showmenu()"><i class="fa fa-bars" style="font-size:36px"></i></a>
+        <ul id="myUL">
+            <li class="first"><a href="projecthome.html">Home</a></li>
+            <li><a href="projectabout.html">About</a></li>
+            <li><a href="projectservices.html">Services</a></li>
+            <li><a href="projectskills.html">Skills</a></li>
+            <li><a href="projectcontact.html">Contact</a></li>
+        </ul>
+        <h2>Portfolio.</h2>
+    </header>
+    <main>
+        <h2>Contact me</h2>
+        <p class="one">---<span>Get in touch</span>---</p>
+        <form action="projectsubmit.php" class="right">
+            <h3>Message me</h3>
+            <input id="new" type="text" autofocus title="Enter your name or company's name" placeholder="Name">
+            <input id="new" type="Email" title="Enter your email or company's email" placeholder="Your Email">
+            <p>
+            <textarea id="text" cols="84" rows="15"></textarea>
+            <p>
+            <input type="submit" value="Send Message">
+        </form>
+        <div class="old">
+            <h3>Get in Touch</h3>
+            <p class="two">Get in touch with with me.Below are my contact info!</p>
+            <div class="new">
+                <i class="fa fa-address-book" id="first"style="font-size:36px"></i>
+                <label for="name">Name</label>
+                <p id="name">Abednego Yakubu</p>
+                <p>
+                <i class="fa fa-map-marker"id="second" style="font-size:36px"></i>
+                <label for="address">Addreess</label>
+                <p id="address">Karji new extension,<br>Kaduna,<br>Nigeria</p>
+                <p>
+                <i class="fa fa-envelope" style="font-size:36px" ></i>
+                <label for="email">Email</label>
+                <br><a class="mail" href="mailto:abednegoyaku6@gmail.com">abednegoyaku6@gmail.com</a>
+                <p>
+                <i class="fa fa-phone" style="font-size:36px"></i>
+                <label for="phone">Phone Number</label>
+                <br><a class="mail"href="tel:+2348126620412">+2348126620412</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+       <p>Created by <span>Cyclog</span> | &copy;2022 All rights reserved</p>
+    </footer>
+</body>
+</html>
